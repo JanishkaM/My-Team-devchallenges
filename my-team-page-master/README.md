@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://https://app.netlify.com/sites/myteam-jm/">
+    <a href="https://myteam-jm.netlify.app/">
       Demo
     </a>
     <span> | </span>
