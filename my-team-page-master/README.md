@@ -70,4 +70,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 - Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://https://github.com/JanishkaM)
+- GitHub [@JanishkaM](https://https://github.com/JanishkaM)
