@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* =======Prebuilt Clases======== */
+.tl-font {
+    font-family: 'PT Serif', serif;
+}
+
+.m-width {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+/* =======Header======== */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header .title {
+    max-width: 50%;
+    padding: 52px;
+}
+
+header .title h2 {
+    font-size: 30px;
+}
+
+header .description {
+    max-width: 50%;
+    padding: 52px;
+}
+
+header .description h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+header .description p {
+    font-size: 18px;
+    padding-right: 90px;
+}
+/* =======Container======== */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 60px;
+}
+
+.container .box {
+    margin: 0px 20px 20px 20px;
+    position: relative;
+    padding: 0px 30px 0px 30px;
+}
+
+.container .box:nth-child(2),
+.container .box:nth-child(5) {
+    margin-top: 150px;
+}
+
+.container .box::after {
+    content: '' attr(name)'';
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.container .box::before {
+    content: '' attr(job)'';
+    display: block;
+    position: absolute;
+    right: 0;
+    writing-mode: vertical-rl;
+    margin: 5px;
+    font-family: 'PT Serif', serif;
+    letter-spacing: .5px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.container .box img {
+    max-width: 100%;
+    /* object-fit: cover; */
+    aspect-ratio: 9 / 14;
+    display: block;
+}
+/* =======Footer======== */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    background-color: aliceblue;
+}
+
+/* =======Media Query======== */
+@media screen and (max-width:780px) {
+    header {
+        display: block;
+    }
+
+    header .title,
+    header .description {
+        max-width: 100%;
+        padding: 20px 10px 10px 50px;
+    }
+
+    header .description p {
+        padding-right: 0px;
+    }
+
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container .box:nth-child(2),
+    .container .box:nth-child(5) {
+        margin-top: 0px;
+    }
+
+    .container .box:nth-child(2),
+    .container .box:nth-child(4),
+    .container .box:nth-child(6) {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .container .box {
+        margin: 0px 0px 20px -12px;
+        padding: 0px 25px;
+    }
+
+    header .title {
+        padding: 15px;
+    }
+
+    header .description {
+        padding: 15px;
+    }
+    .container .box::after {
+        font-size: 14px;
+    }
+    
+    .container .box::before {
+        font-size: 12px;
+    }
+}
