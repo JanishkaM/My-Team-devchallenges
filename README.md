@@ -40,9 +40,12 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo? Demo hosted in <a href="https://myteam-jm.netlify.app/">Netlify</a> 
-- What was your experience? I only used Html and Css only. It was a good experience for me. I used Css grid, flex-box, and ::before and ::after. I'm trying to do my best. 
-- What have you learned/improved? Best thing about this challenge css writing-mode tag. I naver used this before but now I now how to Use it.  
+- Where can I see your demo?
+Demo hosted in <a href="https://myteam-jm.netlify.app/">Netlify</a> 
+- What was your experience? 
+I only used Html and Css only. It was a good experience for me. I used Css grid, flex-box, and ::before and ::after. I'm trying to do my best. 
+- What have you learned/improved? 
+Best thing about this challenge css writing-mode tag. I naver used this before but now I now how to Use it.  
 
 ### Built With
 
