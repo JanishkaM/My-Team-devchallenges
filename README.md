@@ -1,75 +1,73 @@
-<!-- Please update value in the {}  -->
 
-<h1 align="center">devchallenges.io My Team Design</h1>
+# My Team (DevChallenges)
 
-<div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
-</div>
+![Screenshot](img/screanshot.png)
 
-<div align="center">
-  <h3>
-    <a href="https://myteam-jm.netlify.app/">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://https://github.com/JanishkaM/My-Team-devchallenges">
-      Solution
-    </a>
-    <span> | </span>
-    <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
-      Challenge
-    </a>
-  </h3>
-</div>
+A responsive web project showcasing a team page, designed for the DevChallenges platform. The site features a clean layout, modern design, and highlights team members with photos and roles.
 
-<!-- TABLE OF CONTENTS -->
+---
 
-## Table of Contents
+## Key Features
 
-- [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+- Responsive design for desktop and mobile
+- Team member profiles with photos and roles
+- Clean, modern UI
+- Accessible and semantic HTML
+- Easy to customize
 
-<!-- OVERVIEW -->
+---
 
-## Overview
+## Technologies Used
 
-![screenshot](https://github.com/JanishkaM/My-Team-devchallenges/blob/main/screencapture-myteam-jm-netlify-app-2023-02-27-20_22_43.png)
+- HTML5
+- CSS3
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+---
 
-- Where can I see your demo?
-Demo hosted in [Netlify](https://myteam-jm.netlify.app/)
-- What was your experience? 
-I only used Html and Css only. It was a good experience for me. I used Css grid, flex-box, and ::before and ::after. I'm trying to do my best. 
-- What have you learned/improved? 
-Best thing about this challenge css writing-mode tag. I naver used this before but now I now how to Use it.  
+## Getting Started
 
-### Built With
+1. **Clone the repository:**
+  ```bash
+  git clone https://github.com/JanishkaM/My-Team-devchallenges.git
+  ```
+2. **Open the project folder:**
+  ```bash
+  cd My-Team-devchallenges
+  ```
+3. **Launch the site:**
+  - Open `index.html` in your web browser.
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+---
 
-- Html5
-- Css3 (Grid, Flex-box)
+## Folder Structure
 
-## Features
+```
+My-Team-devchallenges/
+│
+├── index.html
+├── README.md
+├── css/
+│   └── style.css
+├── img/
+│   ├── devchallenges.png
+│   ├── photo1.png
+│   ├── photo2.png
+│   ├── photo3.png
+│   ├── photo4.png
+│   ├── photo5.png
+│   ├── photo6.png
+│   └── screanshot.png
+```
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+---
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories.
+## Credits
 
+- Inspired by [DevChallenges.io](https://devchallenges.io/)
+- Images and assets from DevChallenges resources
 
-## Acknowledgements
+---
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
+## License
 
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-
-## Contact
-
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@JanishkaM](https://https://github.com/JanishkaM)
+This project is licensed under the MIT License. 
