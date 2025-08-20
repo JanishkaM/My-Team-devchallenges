@@ -1,5 +1,4 @@
-
-# My Team (DevChallenges)
+# My Team 
 
 ![Screenshot](img/screanshot.png)
 
